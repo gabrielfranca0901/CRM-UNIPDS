@@ -1,0 +1,34 @@
+:root{--navy:#0f172a;--bg:#f1f5f9;--bd:#e2e8f0}
+*{box-sizing:border-box}
+body{font-family:system-ui,sans-serif;margin:0;background:var(--bg);color:#1e293b;font-size:14px}
+.app{display:grid;grid-template-columns:200px 1fr;min-height:100vh}
+aside{background:var(--navy);color:#e2e8f0;padding:0 8px}
+aside .brand{padding:20px 8px 14px;border-bottom:1px solid #1e293b;margin:0 -8px 12px;padding-left:16px}
+aside small{display:block;font-size:11px;color:#94a3b8}
+aside .brand b{font-size:15px}
+aside button{display:block;width:100%;text-align:left;background:none;border:0;color:#e2e8f0;padding:9px 10px;border-radius:6px;margin-bottom:4px;cursor:pointer;font:inherit}
+aside button.on{background:#334155}
+aside .demo{display:block;padding:10px;font-size:12px;color:#fbbf24}
+main{padding:22px 24px;overflow-x:auto}
+h1.t{font-size:17px;margin:0 0 16px}
+.top{display:flex;align-items:center;gap:8px;margin-bottom:12px}.top h1{margin:0 auto 0 0}
+input,select,textarea,button{font:inherit;padding:8px 10px;border:1px solid var(--bd);border-radius:6px;background:#fff}
+button{cursor:pointer}.link{border:0;background:none;color:#2563eb;text-decoration:underline;padding:0}
+.card{background:#fff;border-radius:10px;padding:20px;display:flex;flex-direction:column;gap:8px;box-shadow:0 1px 3px #0001}
+.form{max-width:690px;gap:14px}.form label{display:flex;flex-direction:column;gap:6px;font-weight:600}
+.form small{font-weight:400;color:#64748b;font-size:12px}.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form textarea{min-height:90px}
+.btn{background:#0f172a;color:#fff;border:0;padding:10px 16px;font-weight:600}.btn:disabled{background:#9ca3af;cursor:not-allowed}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden}
+th{font-size:11px;text-transform:uppercase;color:#64748b;text-align:left;padding:12px 10px}
+td{padding:9px 10px;vertical-align:top}tbody tr{cursor:pointer;border-top:1px solid #fff}
+tr.late{background:#fef2f2}tbody tr:hover{background:#eef2ff}
+.proto{font-family:ui-monospace,monospace;color:#b91c1c}
+.nome{color:#b91c1c}.sub{font-size:12px;color:#64748b}
+.badge{font-size:12px;padding:2px 7px;border-radius:4px;white-space:nowrap}
+.b-aberto{background:#dbeafe;color:#1d4ed8}.b-andamento{background:#fef3c7;color:#92400e}
+.b-outro_setor{background:#f3e8ff;color:#7e22ce}.b-aguardando_revisao{background:#ffedd5;color:#c2410c}
+.b-resolvido{background:#dcfce7;color:#15803d}
+.msg{color:#b91c1c}.check{display:flex;gap:6px}.nota{background:var(--bg);padding:6px;border-radius:6px}
+.metricas{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.metricas b{font-size:28px}
+.login{max-width:320px;margin:80px auto}
