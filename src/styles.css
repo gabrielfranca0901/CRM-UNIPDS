@@ -31,4 +31,9 @@ tr.late{background:#fef2f2}tbody tr:hover{background:#eef2ff}
 .b-resolvido{background:#dcfce7;color:#15803d}
 .msg{color:#b91c1c}.check{display:flex;gap:6px}.nota{background:var(--bg);padding:6px;border-radius:6px}
 .metricas{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.metricas b{font-size:28px}
-.login{max-width:320px;margin:80px auto}
+.login{max-width:320px;margin:80px auto}aside .eu{display:block;padding:10px;font-size:12px;color:#94a3b8}
+tbody.estatico tr{cursor:default}
+.pag{margin-top:12px;justify-content:flex-end}
+button:disabled{opacity:.5;cursor:not-allowed}
+h2{margin:4px 0}
+.card>button,.card>.link{align-self:flex-start}
